@@ -46,7 +46,9 @@ export default function ImageUpload({
       console.log("API Response:", text);
 
       try {
-        const parsedInfo = JSON.parse(text);
+        // const parsedInfo = JSON.parse(text);
+        const cleanText = text.replace(/```(?:json)?\n?|\n?```/g, "").trim();
+        const parsedInfo = JSON.parse(cleanText);
         setPlantInfo(parsedInfo);
       } catch (parseError) {
         console.error("Error parsing JSON:", parseError);
