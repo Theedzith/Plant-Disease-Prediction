@@ -4,7 +4,9 @@ import { useState } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { FaUpload, FaCamera } from "react-icons/fa";
 
-const genAI = new GoogleGenerativeAI("AIzaSyBLT3dm199ZgjX23Y7jsIsKCGFv5FUPlDc");
+// const genAI = new GoogleGenerativeAI("AIzaSyBLT3dm199ZgjX23Y7jsIsKCGFv5FUPlDc");
+const genAI = new GoogleGenerativeAI("AIzaSyB-60LvUB1KCnaOuNah59PyZdKJaTJOJtI");
+
 
 
 interface ImageUploadProps {
