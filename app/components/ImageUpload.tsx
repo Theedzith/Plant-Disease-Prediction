@@ -51,9 +51,6 @@ export default function ImageUpload({
         const cleanText = text.replace(/```(?:json)?\n?|\n?```/g, "").trim();
         const parsedInfo = JSON.parse(cleanText);
         setPlantInfo(parsedInfo);
-        setTimeout(() => {
-          console.log("Parsed Info:", parsedInfo);
-        }, 2000);
       } catch (parseError) {
         console.error("Error parsing JSON:", parseError);
         setPlantInfo({
