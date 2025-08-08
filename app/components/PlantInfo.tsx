@@ -52,6 +52,8 @@ export default function PlantInfo({ plantInfo }: { plantInfo: any }) {
   }
 
   // Get the first plant object from plant_data
+  console.log("---------------------------------------------------------------------------------------------");
+  console.log(plantInfo);
   const plant = plantInfo?.plant_data?.[0];
 
   if (!plant) {
