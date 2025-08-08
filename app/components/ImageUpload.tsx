@@ -50,9 +50,6 @@ export default function ImageUpload({
         // const parsedInfo = JSON.parse(text);
         const cleanText = text.replace(/```(?:json)?\n?|\n?```/g, "").trim();
         const parsedInfo = JSON.parse(cleanText);
-        setTimeout(() => {
-          console.log("Parsed Info:", parsedInfo);
-        }, 2000);
         setPlantInfo(parsedInfo);
         setTimeout(() => {
           console.log("Parsed Info:", parsedInfo);
