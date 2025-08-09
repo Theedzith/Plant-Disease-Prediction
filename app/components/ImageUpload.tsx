@@ -7,7 +7,8 @@ import { time } from "console";
 
 // const genAI = new GoogleGenerativeAI("AIzaSyBLT3dm199ZgjX23Y7jsIsKCGFv5FUPlDc");
 // const genAI = new GoogleGenerativeAI("AIzaSyB-60LvUB1KCnaOuNah59PyZdKJaTJOJtI");
-const genAI = new GoogleGenerativeAI("AIzaSyCapMluvxn3U2QsIu7pSz6vbDN8dQ5Vo2o");
+// const genAI = new GoogleGenerativeAI("AIzaSyCapMluvxn3U2QsIu7pSz6vbDN8dQ5Vo2o");
+const genAI = new GoogleGenerativeAI("AIzaSyBAwC8knAWMox6onnO8mziCWihJVQVSMPk");
 
 
 
